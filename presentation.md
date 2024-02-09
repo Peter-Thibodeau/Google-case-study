@@ -49,13 +49,14 @@
 </tbody>
 </table>
 <br>
+Note: the following charts were made in Tableau
+<br><br>
 4. Casuals like electric bikes almost as much as conventional ones.
 <br>
 <img width="380" alt="image" src="https://github.com/Peter-Thibodeau/Google-case-study/assets/158618486/a8965d1f-982c-41d3-acea-2e8ecfdebbae">
 
-Notes:
+Note:
 - The use of electric bikes by casuals may explain why they ride further than annual members.<br>
-- The following graphs were made with Tableau at: https://public.tableau.com/app/profile/peter.thibodeau/viz/rideabletypeforcasualandmembers/Sheet2<br>
 <br>
 5. Casual riders prefer Saturday and Sunday over weekdays while annual members are a little more active Monday through Thursday
 <img width="750" alt="Usage by days of the week." src="https://github.com/Peter-Thibodeau/Google-case-study/assets/158618486/f7edb7cb-ecf4-4028-9f18-93e2b444e644">
