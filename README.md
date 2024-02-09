@@ -34,7 +34,7 @@ There are 12 csv files, 1 for each month for 12 consecutive months: Dec 2021 to 
 ## Outliers
 <img width="454" alt="image" src="https://github.com/Peter-Thibodeau/Google-case-study/assets/158618486/e0c55bab-cf60-4026-982f-c91392f89d0c">
 
-Because there are over 4,500,000 records, a single dot can be assumed to be an outlier  
+Because there are over 4,500,000 records, a single dot is assumed to be an outlier  
 - All of the outliers are > 2000 minutes and were deleted.
 
 
