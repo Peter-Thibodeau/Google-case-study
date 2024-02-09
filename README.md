@@ -17,7 +17,7 @@ There are 12 csv files, 1 for each month for 12 consecutive months: Dec 2021 to 
 <img width="331" alt="image" src="https://github.com/Peter-Thibodeau/Google-case-study/assets/158618486/dc6c4e23-8e70-4846-8f5e-696e3a7b3413">
 
 ## Column descriptions:
-1.	ride_id is a unique number assigned to a single trip
+1.	ride_id is a unique string assigned to a single trip
 2.	rideable_type is the type of bicycle chosen
 3.	started_at start time for the trip
 4.	ended_at end time for the trip
