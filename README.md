@@ -7,6 +7,7 @@ The financial team has determined that Cyclistic members are more profitable tha
 
 As a marketing team member, I have been assigned to answer the question, "How do Cyclistic members and casual riders use Cyclistic bikes differently." Also, I must provide recommendations for converting the casuals to annual members.
 
+
 # The Data
 Where did data come from? The data is actual transactions from Cyclistic is a bike-share company based in Chicago. It is available from Divvy/Lyft Bikes and Scooters at this link: https://divvy-tripdata.s3.amazonaws.com/index.html Divvy/Lyft Bikes is a division of the popular ride share company called Lyft. The terms of use for the data can be found at https://divvybikes.com/data-license-agreement.
 
@@ -15,7 +16,6 @@ There are 12 csv files, 1 for each month for 12 consecutive months: Dec 2021 to 
 
 <img width="331" alt="image" src="https://github.com/Peter-Thibodeau/Google-case-study/assets/158618486/dc6c4e23-8e70-4846-8f5e-696e3a7b3413">
 
- 
 ## Column descriptions:
 1.	ride_id is a unique number assigned to a single trip
 2.	rideable_type is the type of bicycle chosen
@@ -30,6 +30,14 @@ There are 12 csv files, 1 for each month for 12 consecutive months: Dec 2021 to 
 11.	the latitude of the station where the trip ended
 12.	the longitude of the station where the trip ended
 13.	the customer is either a casual user or an annual member
+
+## Outliers
+<img width="454" alt="image" src="https://github.com/Peter-Thibodeau/Google-case-study/assets/158618486/e0c55bab-cf60-4026-982f-c91392f89d0c">
+
+Because there are over 4,500,000 records, a single dot can be assumed to be an outlier  
+- All of the outliers are > 2000 minutes and were deleted.
+
+
 
 # Data Cleaning
 Records with null values in the following fields were deleted because they are unusable:
@@ -72,4 +80,4 @@ A field named ride_dist by was created by a calculation that uses values from th
   
 A field named day_of_week was created by extracting the day from the datetime stamp in the ride_id field.  
 
-A field named month was created by extracting the month from the datetime stamp in the ride_id field.  
+A field named month was created by extracting the month from the datetime stamp in the ride_id field. 
