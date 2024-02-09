@@ -51,7 +51,7 @@
 <br>
 4. Casuals like electric bikes almost as much as conventional ones.
 <br>
-<img width="350" alt="Conventional versus electric bike usage" src="https://github.com/Peter-Thibodeau/Google-case-study/assets/158618486/a7da609c-95bb-4e17-b460-b51af3a7f092">
+<img width="380" alt="image" src="https://github.com/Peter-Thibodeau/Google-case-study/assets/158618486/a8965d1f-982c-41d3-acea-2e8ecfdebbae">
 
 Notes:
 - The use of electric bikes by casuals may explain why they ride further than annual members.<br>
@@ -62,7 +62,7 @@ Notes:
 <br><br><br>
 6. Both casuals and annual members utilize the bikes more in the warmer months, which is no surprise considering how cold the winters are in Chicago.
 <br>
-<img width="700" alt="Usage by month" src="https://github.com/Peter-Thibodeau/Google-case-study/assets/158618486/fe124c33-37ee-4ba4-bcdd-5fcf79dacb14)">
+<img width="580" alt="Usage by month" src="https://github.com/Peter-Thibodeau/Google-case-study/assets/158618486/fe124c33-37ee-4ba4-bcdd-5fcf79dacb14)">
 <br><br>
 
 # Recommendations
