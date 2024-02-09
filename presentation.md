@@ -1,8 +1,8 @@
 # Findings
-1. There are 38% more annual members than casual riders.
+1. There are 38% more members than casuals (2,609,243 members and 1,890,755 casuals.)
 
 2. Casuals keep the bike out longer.
-![image](https://github.com/Peter-Thibodeau/Google-case-study/assets/158618486/81ccc0c5-218c-4385-9f9c-b8d69cdd26e3)<br>
+![image](https://github.com/Peter-Thibodeau/Google-case-study/assets/158618486/6b5a54ea-5517-4dad-9ebd-aa45d0b87dd9)
 
 3. Casuals ride further distances.
 ![image](https://github.com/Peter-Thibodeau/Google-case-study/assets/158618486/e6ad0c8b-0893-42c7-ad4a-197b007e968f)<br><br>
