@@ -1,11 +1,11 @@
 # Introduction
 This is my case study for the Google Data Analytics Certificate Course.
 
-Cyclistic, a Chicago bike-sharing company, offers conventional and electric bikes to users. The company has concentrated its marketing on appealing to the broad market by offering single-ride passes, full-day passes, and annual memberships. Customers opting for the first two options are called "casual riders," those who chose the last option are called "annual members."
+Cyclistic, a Chicago bike-sharing company, offers conventional and electric bikes to users. The company has concentrated its marketing on appealing to the broad market by offering single-ride passes, full-day passes, and annual memberships. Customers opting for the first two options are called "casuals," and those who chose the last option are called "members."
 
-The financial team has determined that Cyclistic members are more profitable than casual riders, and marketing has been tasked with the conversion program.
+The financial team has determined that members are more profitable than casuals, and marketing has been tasked with the conversion program.
 
-As a marketing team member, I have been assigned to answer the question, "How do Cyclistic members and casual riders use Cyclistic bikes differently." Also, I must provide recommendations for converting the casuals to annual members.
+As a marketing team member, I have been assigned to answer the question, "How do Cyclistic members and casuals use Cyclistic bikes differently." Also, I must provide recommendations for converting the casuals to annual members.
 
 
 # The Data
