@@ -1,13 +1,56 @@
 # Findings
-1. There are 38% more members than casuals (2,609,243 members and 1,890,755 casuals.)
-
+<br>
+1. There are 2,609,243 members and 1,890,755 casuals, so members outnumber casuals by 38%. 
+<br><br>
 2. Casuals keep the bike out longer.
-![image](https://github.com/Peter-Thibodeau/Google-case-study/assets/158618486/6b5a54ea-5517-4dad-9ebd-aa45d0b87dd9)
-
+<table>
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td>Max Ride Length (hours)</td>
+<td>Min Ride Length (minutes)</td>
+<td>Avg Ride Length (hours)</td>
+</tr>
+<tr>
+<td>members</td>
+<td>11.7</td>
+<td>6.0</td>
+<td>15.0</td>
+</tr>
+<tr>
+<td>casuals</td>
+<td>18.6</td>
+<td>6.0</td>
+<td>23.1</td>
+</tr>
+</tbody>
+</table>
+<br>
 3. Casuals ride further distances.
-![image](https://github.com/Peter-Thibodeau/Google-case-study/assets/158618486/e6ad0c8b-0893-42c7-ad4a-197b007e968f)<br><br>
-
+<table>
+<tr>
+<td>&nbsp;</td>
+<td>Max Ride Length (hours)</td>
+<td>Min Ride Length (minutes)</td>
+<td>Avg Ride Length (hours)</td>
+</tr>
+<tr>
+<td>members</td>
+<td>11.7</td>
+<td>6.0</td>
+<td>15.0</td>
+</tr>
+<tr>
+<td>casuals</td>
+<td>18.6</td>
+<td>6.0</td>
+<td>23.1</td>
+</tr>
+</tbody>
+</table>
+<br>
 4. Casuals like electric bikes almost as much as conventional ones.
+<br>
 <img width="350" alt="Conventional versus electric bike usage" src="https://github.com/Peter-Thibodeau/Google-case-study/assets/158618486/a7da609c-95bb-4e17-b460-b51af3a7f092">
 
 Notes:
@@ -20,4 +63,12 @@ Notes:
 6. Both casuals and annual members utilize the bikes more in the warmer months, which is no surprise considering how cold the winters are in Chicago.
 <br>
 <img width="700" alt="Usage by month" src="https://github.com/Peter-Thibodeau/Google-case-study/assets/158618486/fe124c33-37ee-4ba4-bcdd-5fcf79dacb14)">
+<br><br>
 
+# Recommendations
+<br>
+1.	Casuals may respond well to discounts for electric bikes.  
+<br>
+2.	Casuals like long weekend rides and may respond well to a price structure that offers a discount for weekends without a discount for weekdays.
+<br>
+3.	Marketing to casuals should begin in the weeks leading up to spring and through mid October
