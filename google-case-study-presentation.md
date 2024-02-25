@@ -1,3 +1,5 @@
+<link href="style.css" rel="stylesheet"></link>
+
 # Findings
 <br>
 1. There are 2,609,243 members and 1,890,755 casuals, so members outnumber casuals by 38%. 
