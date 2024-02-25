@@ -1,4 +1,4 @@
-<link href="style.css" rel="stylesheet"></link>
+<div style="background-color: red;">
 
 # Findings
 <br>
@@ -56,7 +56,7 @@ Note: the following charts were made in Tableau
 4. Casuals like electric bikes almost as much as conventional ones.
 <br>
 <img width="380" alt="image" src="https://github.com/Peter-Thibodeau/Google-case-study/assets/158618486/b271e3bf-8171-4b04-bcf0-825648430617">
-
+</div>
 Note:
 - The use of electric bikes by casuals may explain why they ride further than annual members.<br>
 <br>
