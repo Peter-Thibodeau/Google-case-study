@@ -1,5 +1,3 @@
-<div style="background-color: red;">
-
 # Findings
 <br>
 1. There are 2,609,243 members and 1,890,755 casuals, so members outnumber casuals by 38%. 
@@ -56,7 +54,7 @@ Note: the following charts were made in Tableau
 4. Casuals like electric bikes almost as much as conventional ones.
 <br>
 <img width="380" alt="image" src="https://github.com/Peter-Thibodeau/Google-case-study/assets/158618486/b271e3bf-8171-4b04-bcf0-825648430617">
-</div>
+
 Note:
 - The use of electric bikes by casuals may explain why they ride further than annual members.<br>
 <br>
