@@ -1,10 +1,7 @@
 /* Applies to the entire body of the HTML document (except where overridden by more specific
 selectors). */
 body {
-  margin: 25px;
   background-color: red;
-  font-family: arial, sans-serif;
-  font-size: 14px;
 }
 
 /* Applies to all <h1>...</h1> elements. */
