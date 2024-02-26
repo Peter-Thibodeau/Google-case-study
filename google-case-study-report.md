@@ -9,7 +9,7 @@ As a marketing team member, I have been assigned to answer the question, "How do
 
 
 # Data Source
-The data is actual transactions from Cyclistic is a bike-share company based in Chicago. It is available from Divvy/Lyft Bikes and Scooters at this link: https://divvy-tripdata.s3.amazonaws.com/index.html Divvy/Lyft Bikes is a division of the popular ride share company called Lyft. The terms of use for the data can be found at https://divvybikes.com/data-license-agreement.
+The data contains transactions from Cyclistic is a bike-share company based in Chicago. It is available from Divvy/Lyft Bikes and Scooters at this link: https://divvy-tripdata.s3.amazonaws.com/index.html Divvy/Lyft Bikes is a division of the popular ride share company called Lyft. The terms of use for the data can be found at https://divvybikes.com/data-license-agreement.
 
 # Data Exploration
 
