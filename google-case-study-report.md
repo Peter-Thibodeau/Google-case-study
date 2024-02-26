@@ -12,8 +12,8 @@ The data contains transactions from Cyclistic is a bike-share company based in C
 
 # Data Exploration
 ## Descriptions of Variables
-| Variable           | Nulls   | Data Type | Description                               |
-| ------------------ | ------- | --------- | ----------------------------------------- |
+| Variable           | Nulls   | Datatype  | Description                               |
+| :---               | :---    | :---      | :---                                      |
 | ride_id            | 0       | string    | a unique string assigned to a single trip |
 | rideable_type      | 0       | string    | the type of bicycle chosen                |
 | started_at         | 0       | timestamp | time trip started                         |
@@ -29,33 +29,27 @@ The data contains transactions from Cyclistic is a bike-share company based in C
 | member_casual      | 96      | string    | annual member or casual user              |
 
 ## Variable Handling
-- timestamp: not relevant OMIT
-- industry:   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. has 1,101 unique values, remove values that are less than ten percent of all records  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. consolidate the remaining into 16 values to make plotting manageable
-- job_title: has too many unique values to be useful OMIT
-- job_title_info: has too many null values to be useful OMIT
-- annual_salary: use as is
-- additional: has too many null values to be useful OMIT
-- currency: use as is
-- other_info: has too many null values to be useful OMIT
-- income_context: has too many null values to be useful OMIT
-- country: location will not be used in the analysis OMIT
-- state: location will not be used in the analysis OMIT
-- city: location will not be used in the analysis OMIT
-- years_exp: use as is
-- years_exp_in_field:  use as is
-- education:  use as is
-- gender:  use as is
-- race: has forty-eight unique values, many of which are similar, and can be consolidated into six values
+| Variable           | Use | Reason                                                 |
+| :---               | :---| :---                                                   |
+| ride_id            | no  | is not relevant to analysis                            |  
+| rideable_type      | yes | for comparing bicycle type used by members and casuals |
+| started_at         | yes | for calculating trip length                            |
+| ended_at           | yes | for calculating trip length                            |
+| start_station_name | no  | too many null values to be useful                      |
+| start_station_id   | no  | too many null values to be useful                      |
+| end_station_name   | no  | too many null values to be useful                      |
+| end_station_id     | no  | too many null values to be useful                      |
+| start_lat          | yes | for calculating trip distance                          |
+| start_lng          | yes | for calculating trip distance                          |
+| end_lat            | yes | for calculating trip distance                          |
+| end_lng            | yes | for calculating trip distance                          |
+| member_casual      | yes | for comparing members to casuals                       |
 
 # Data Cleaning
 - Remove leading and trailing spaces.
-- Remove duplicate records.
-- Remove null values in industry, education, gender, and race variables.
+- Remove records with null values in start_lat, start_lng, end_lat, end_lng, and member_casual.
 - Change strings to upper case.
 - Remove punctuation marks.
-- Change the datatype of annual_salary to integer.
 
 ## Filtering
 Age  
