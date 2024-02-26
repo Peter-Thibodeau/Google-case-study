@@ -49,7 +49,7 @@
 </tbody>
 </table>
 <br>
-Note: the following charts were made in Tableau
+The following charts were made with Tableau
 <br><br>
 4. Casuals like electric bikes almost as much as conventional ones.
 <br>
