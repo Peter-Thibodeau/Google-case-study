@@ -28,21 +28,21 @@ The data contains transactions from Cyclistic is a bike-share company based in C
 | member_casual      | 96      | string    | annual member or casual user              |
 
 ## Variable Handling
-| Variable           | Use | Reason                                                 |
-| :---               | :---| :---                                                   |
-| ride_id            | no  | is not relevant to analysis                            |  
-| rideable_type      | yes | for comparing bicycle type used by members and casuals |
-| started_at         | yes | for calculating trip length                            |
-| ended_at           | yes | for calculating trip length                            |
-| start_station_name | no  | too many null values to be useful                      |
-| start_station_id   | no  | too many null values to be useful                      |
-| end_station_name   | no  | too many null values to be useful                      |
-| end_station_id     | no  | too many null values to be useful                      |
-| start_lat          | yes | for calculating trip distance                          |
-| start_lng          | yes | for calculating trip distance                          |
-| end_lat            | yes | for calculating trip distance                          |
-| end_lng            | yes | for calculating trip distance                          |
-| member_casual      | yes | for comparing members to casuals                       |
+| Variable           | Omit | Reason                                                 |
+| :---               | :--- | :---                                                   |
+| ride_id            | no   | is not relevant to analysis                            |  
+| rideable_type      | yes  | for comparing bicycle type used by members and casuals |
+| started_at         | yes  | for calculating trip length                            |
+| ended_at           | yes  | for calculating trip length                            |
+| start_station_name | no   | too many null values to be useful                      |
+| start_station_id   | no   | too many null values to be useful                      |
+| end_station_name   | no   | too many null values to be useful                      |
+| end_station_id     | no   | too many null values to be useful                      |
+| start_lat          | yes  | for calculating trip distance                          |
+| start_lng          | yes  | for calculating trip distance                          |
+| end_lat            | yes  | for calculating trip distance                          |
+| end_lng            | yes  | for calculating trip distance                          |
+| member_casual      | yes  | for comparing members to casuals                       |
 
 # Data Cleaning
 ## Tasks
