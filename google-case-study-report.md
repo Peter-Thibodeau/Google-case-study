@@ -46,41 +46,17 @@ The data contains transactions from Cyclistic is a bike-share company based in C
 | member_casual      | yes | for comparing members to casuals                       |
 
 # Data Cleaning
-- Remove leading and trailing spaces.
+## Tasks
+- Remove leading and trailing spaces from all variables.
 - Remove records with null values in start_lat, start_lng, end_lat, end_lng, and member_casual.
-- Change strings to upper case.
-- Remove punctuation marks.
+- Remove punctuation marks from strings, but leave ampersands (&) in station name variables.
 
 ## Filtering
-Age  
-- The age for earning an annual salary can be assumed to apply only to adults, so remove records with the string "under 18."
-- Many workers aged sixty-five and older do not work a 40-hour work week, which will skew the results, so remove records with the string "65 and over."
-
-Annual salary  
-- Assuming that a work week is at least 40 hours and the national minimum wage is $7, the minimum annual_salary will be  $7 X 40 hours X 52 weeks = $14,560.
-- Annual salaries above one million will skew the results, so remove those records.
-
-Currency
-- Remove the string "other."
-- Remove currencies present in less than ten percent of total records.
-
-Education 
-- Change the string "some college" to "high school."
-- Change the string "college education" to "bachelor's degree."
-
-Gender 
-- Remove records with strings "Other or prefer not to answer" and "Prefer not to answer."
-
-Race 
-- Remove records with the string "another option not listed here."
-
+Ride lengths:
+The average speed for a person riding a bicycle is 12mph, and the shortest distance between two stations is one half mile. Thus, the shortest possible ride length is 6 minutes and any record with a ride length less than that will be removed.
 
 ## New Variables
-- Records with a currency other than U.S. dollars must be converted to U.S. dollars for a meaningful comparison. The name of the new variable will be annual_salary_USD. These are the exchange rates used:
-
-| Country       | Exchange rate in U.S. dollars |
-| ------------- | ----------------------------- |
-| Austrailia    | 1.53                          |
-| Canada        | 1.35                          |
-| Europe        | 1.08                          |
-| Great Britain | 1.26                          |
+- ride_length: calculated by subtracting end_time from start_time
+- day: extracted from day and week in start_time and end_time
+- month: extracted from month and year in start_time and end_time
+- season: assigned months to one of four groups (one group for each season)
