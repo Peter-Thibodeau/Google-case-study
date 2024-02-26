@@ -1,2 +1,1 @@
-The google case study is that capstone project I completed to pass the goolge data analytics course.
-The report file contains the project summary, source of data, date evaluation, data cleaning
+The google case study is the capstone project I completed to obtain the goolge data analytics certification. The report file contains a description of the project, data source, date evaluation and data cleaning involved.
