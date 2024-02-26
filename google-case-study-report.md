@@ -8,10 +8,11 @@ The financial team has determined that members are more profitable than casuals,
 As a marketing team member, I have been assigned to answer the question, "How do Cyclistic members and casuals use Cyclistic bikes differently." Also, I must provide recommendations for converting the casuals to annual members.
 
 
-# The Data
+# Data Source
 The data is actual transactions from Cyclistic is a bike-share company based in Chicago. It is available from Divvy/Lyft Bikes and Scooters at this link: https://divvy-tripdata.s3.amazonaws.com/index.html Divvy/Lyft Bikes is a division of the popular ride share company called Lyft. The terms of use for the data can be found at https://divvybikes.com/data-license-agreement.
 
-## How is the data organized?
+# Data Exploration
+
 There are 12 csv files, 1 for each month for 12 consecutive months: Dec 2021 to November 2022. Each file is a table with the same schema.
 
 <img width="331" alt="image" src="https://github.com/Peter-Thibodeau/Google-case-study/assets/158618486/dc6c4e23-8e70-4846-8f5e-696e3a7b3413">
