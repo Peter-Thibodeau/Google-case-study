@@ -1,11 +1,9 @@
 # Introduction
-This is my case study for the Google Data Analytics Certificate Course.
-
 Cyclistic, a Chicago bike-sharing company, offers conventional and electric bikes to users. The company has concentrated its marketing on appealing to the broad market by offering single-ride passes, full-day passes, and annual memberships. Customers opting for the first two options are called "casuals," and those who chose the last option are called "members."
 
-The financial team has determined that members are more profitable than casuals, and marketing has been tasked with the conversion program.
+The financial team has determined that annual members are more profitable than casual users. Marketing has been tasked with converting casual users to annual members.
 
-As a marketing team member, I have been assigned to answer the question, "How do Cyclistic members and casuals use Cyclistic bikes differently." Also, I must provide recommendations for converting the casuals to annual members.
+As a marketing team member, my assignment is to answer the question, "How do Cyclistic members and casuals differ." Also, I must provide recommendations for converting the casuals to annual members.
 
 # Data Source
 The data contains transactions from Cyclistic is a bike-share company based in Chicago. It is available from Divvy/Lyft Bikes and Scooters at this link: https://divvy-tripdata.s3.amazonaws.com/index.html Divvy/Lyft Bikes is a division of the popular ride share company called Lyft. The terms of use for the data can be found at https://divvybikes.com/data-license-agreement.
@@ -49,7 +47,7 @@ The data contains transactions from Cyclistic is a bike-share company based in C
 ## Tasks
 - Remove leading and trailing spaces from all variables.
 - Remove records with null values in start_lat, start_lng, end_lat, end_lng, and member_casual.
-- Remove punctuation marks from strings, but leave ampersands (&) in station name variables.
+- Remove punctuation marks from strings, but leave ampersands (&) in station name variables where present.
 
 ## Filtering
 Ride lengths:
