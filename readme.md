@@ -1,1 +1,1 @@
-The google case study is the capstone project I completed to obtain the goolge data analytics certification. The report file contains a description of the project, data source, date evaluation and data cleaning involved.
+The Google case study is the capstone project I completed to obtain the Google data analytics certification. The report contains the data source, description, and cleaning steps I took to complete the project.
