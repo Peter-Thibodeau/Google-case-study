@@ -1,7 +1,5 @@
 # Findings
-<br>
-1. There are 2,609,243 members and 1,890,755 casuals, so members outnumber casuals by 38%. 
-<br><br>
+![image](https://github.com/peter-thibodeau/google-case-study/assets/158618486/3136abf1-d969-4bf5-8622-55ca1f15ac0d)
 2. Casuals keep the bike out longer.
 <table>
 <tbody>
