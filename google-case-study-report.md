@@ -7,78 +7,86 @@ The financial team has determined that members are more profitable than casuals,
 
 As a marketing team member, I have been assigned to answer the question, "How do Cyclistic members and casuals use Cyclistic bikes differently." Also, I must provide recommendations for converting the casuals to annual members.
 
-
 # Data Source
 The data contains transactions from Cyclistic is a bike-share company based in Chicago. It is available from Divvy/Lyft Bikes and Scooters at this link: https://divvy-tripdata.s3.amazonaws.com/index.html Divvy/Lyft Bikes is a division of the popular ride share company called Lyft. The terms of use for the data can be found at https://divvybikes.com/data-license-agreement.
 
 # Data Exploration
+## Descriptions of Variables
+| Variable           | Nulls   | Data Type | Description                               |
+| ------------------ | ------- | --------- | ----------------------------------------- |
+| ride_id            | 0       | string    | a unique string assigned to a single trip |
+| rideable_type      | 0       | string    | the type of bicycle chosen                |
+| started_at         | 0       | timestamp | time trip started                         |
+| ended_at           | 0       | timestamp | time trip ended                           |
+| start_station_name | 612,756 | string    | station where the trip started            |
+| start_station_id   | 612,768 | string    | unique identifier for start station       |
+| end_station_name   | 642,000 | string    | station where the trip started            |
+| end_station_id     | 642,012 | string    | unique identifier for end station         |
+| start_lat          | 48      | decimal   | latitude of start station                 |
+| start_lng          | 60      | decimal   | longitude of start station                |
+| end_lat            | 1,800   | decimal   | latitude of end station                   |
+| end_lng            | 1,812   | decimal   | longitude of end station                  |
+| member_casual      | 96      | string    | annual member or casual user              |
 
-There are 12 csv files, 1 for each month for 12 consecutive months: Dec 2021 to November 2022. Each file is a table with the same schema.
-
-<img width="331" alt="image" src="https://github.com/Peter-Thibodeau/Google-case-study/assets/158618486/dc6c4e23-8e70-4846-8f5e-696e3a7b3413">
-
-## Column descriptions:
-1.	ride_id is a unique string assigned to a single trip
-2.	rideable_type is the type of bicycle chosen
-3.	started_at start time for the trip
-4.	ended_at end time for the trip
-5.	start_station_name station where the trip started
-6.	start_station_id the unique identifier of the station where the trip started
-7.	end_station_name station where the trip ended
-8.	end_station_id the unique identifier of the station where the trip ended
-9.	the latitude of the station where the trip started
-10.	the longitude of the station where the trip started
-11.	the latitude of the station where the trip ended
-12.	the longitude of the station where the trip ended
-13.	the customer is either a casual user or an annual member
-
-## Outliers
-<img width="454" alt="image" src="https://github.com/Peter-Thibodeau/Google-case-study/assets/158618486/e0c55bab-cf60-4026-982f-c91392f89d0c">
-
-Because there are over 4,500,000 records, a single dot is assumed to be an outlier  
-- All of the outliers are > 2000 minutes and were deleted.
-
-
+## Variable Handling
+- timestamp: not relevant OMIT
+- industry:   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. has 1,101 unique values, remove values that are less than ten percent of all records  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. consolidate the remaining into 16 values to make plotting manageable
+- job_title: has too many unique values to be useful OMIT
+- job_title_info: has too many null values to be useful OMIT
+- annual_salary: use as is
+- additional: has too many null values to be useful OMIT
+- currency: use as is
+- other_info: has too many null values to be useful OMIT
+- income_context: has too many null values to be useful OMIT
+- country: location will not be used in the analysis OMIT
+- state: location will not be used in the analysis OMIT
+- city: location will not be used in the analysis OMIT
+- years_exp: use as is
+- years_exp_in_field:  use as is
+- education:  use as is
+- gender:  use as is
+- race: has forty-eight unique values, many of which are similar, and can be consolidated into six values
 
 # Data Cleaning
-Records with null values in the following fields were deleted because they are unusable:
-- started_at
-- ended_at  
-- start_station_name
-- end_station_name  
-- start_station_id
-- end_station_id  
-- start_lat
-- end_lat  
-- start_lng
-- end_lng  
-- member_casual  
-- rideable_type
-  
-Some fields cannot have certain characters or punctuation. Records that violated this were deleted. The fields affected are:  
-- start_station_name and end_station_name (can only contain alphanumeric characters and periods and ampersands)  
-- start_station_id and end_station_id (can only contain alphanumeric characters and dashes)  
-- member_casual (can only contain letters)  
+- Remove leading and trailing spaces.
+- Remove duplicate records.
+- Remove null values in industry, education, gender, and race variables.
+- Change strings to upper case.
+- Remove punctuation marks.
+- Change the datatype of annual_salary to integer.
 
-Fields with leading and trailing spaces were trimmed.  
+## Filtering
+Age  
+- The age for earning an annual salary can be assumed to apply only to adults, so remove records with the string "under 18."
+- Many workers aged sixty-five and older do not work a 40-hour work week, which will skew the results, so remove records with the string "65 and over."
 
-Values in some fields had different case. To correct this, the following fields were converted to upper case:  
-- start_station_name  
-- end_station_name  
-- member_casual
-  
-A field named ride_length was created by subtracting the value in the started_at field from the value in the ended_at field.  
-- The resulting values are in minutes.  
-- Because it doesn't seem reasonable to rent a bike for 5 minutes or less, ride_length values <= 5 minutes were deleted. 
+Annual salary  
+- Assuming that a work week is at least 40 hours and the national minimum wage is $7, the minimum annual_salary will be  $7 X 40 hours X 52 weeks = $14,560.
+- Annual salaries above one million will skew the results, so remove those records.
 
-A field named ride_dist by was created by a calculation that uses values from the following fields:  
-- start_lat
-- start_lng  
-- end_lat
-- end_lng fields  
+Currency
+- Remove the string "other."
+- Remove currencies present in less than ten percent of total records.
 
-- ride_dist values < 1/10 of a mile were deleted
-  
-A field named day_of_week was created by extracting the day from the datetime stamp in the ride_id field.  
+Education 
+- Change the string "some college" to "high school."
+- Change the string "college education" to "bachelor's degree."
 
-A field named month was created by extracting the month from the datetime stamp in the ride_id field. 
+Gender 
+- Remove records with strings "Other or prefer not to answer" and "Prefer not to answer."
+
+Race 
+- Remove records with the string "another option not listed here."
+
+
+## New Variables
+- Records with a currency other than U.S. dollars must be converted to U.S. dollars for a meaningful comparison. The name of the new variable will be annual_salary_USD. These are the exchange rates used:
+
+| Country       | Exchange rate in U.S. dollars |
+| ------------- | ----------------------------- |
+| Austrailia    | 1.53                          |
+| Canada        | 1.35                          |
+| Europe        | 1.08                          |
+| Great Britain | 1.26                          |
