@@ -1,29 +1,15 @@
 # Findings
 ![image](https://github.com/peter-thibodeau/google-case-study/assets/158618486/3136abf1-d969-4bf5-8622-55ca1f15ac0d)
-2. Casuals keep the bike out longer.
-<table>
-<tbody>
-<tr>
-<td>&nbsp;</td>
-<td>Max Ride Length (hours)</td>
-<td>Min Ride Length (minutes)</td>
-<td>Avg Ride Length (hours)</td>
-</tr>
-<tr>
-<td>members</td>
-<td>11.7</td>
-<td>6.0</td>
-<td>15.0</td>
-</tr>
-<tr>
-<td>casuals</td>
-<td>18.6</td>
-<td>6.0</td>
-<td>23.1</td>
-</tr>
-</tbody>
-</table>
-<br>
+
+|Casual users rent for longer periods|
+|:---:|
+|Max ride length (hours)&nbsp;&nbsp;&nbsp;&nbsp;Avg ride length (hours)|
+|<img width="160" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/586ed396-117a-41b7-81fd-3bb35be22018">&nbsp;&nbsp;&nbsp;<img width="160" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/9800ac7d-dd87-4cfd-916c-fb0e76e4a97f">|
+
+
+
+
+
 3. Casuals ride further distances.
 <table>
 <tr>
