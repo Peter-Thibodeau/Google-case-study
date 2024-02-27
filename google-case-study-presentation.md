@@ -33,7 +33,6 @@
 </tbody>
 </table>
 <br>
-The following charts were made with Tableau
 <br><br>
 4. Casuals like electric bikes almost as much as conventional ones.
 <br>
@@ -57,3 +56,7 @@ Note:
 2.	Casuals like long weekend rides and may respond well to a price structure that offers a discount for weekends without a discount for weekdays.
 <br>
 3.	Marketing to casuals should begin in the weeks leading up to spring and through mid October
+
+# Notes
+All charts made with Tableau
+
