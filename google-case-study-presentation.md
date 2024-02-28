@@ -52,5 +52,5 @@ Note:
 3.	Marketing to casuals should begin in the weeks leading up to spring and through mid October
 
 # Notes
-All charts made with Tableau
+All charts made with Tableau and can be viewed here: https://public.tableau.com/app/profile/peter.thibodeau/vizzes
 
