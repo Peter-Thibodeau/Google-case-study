@@ -1,8 +1,10 @@
 # The Differences Between Annual Members and Casual Users
 
-|Total Members and Casuals|
-|:---:|
-|<img width="80" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/d8df94a5-ec0a-44b0-8ace-0d3484fe582c">&nbsp;&nbsp;&nbsp;&nbsp;<img width="80" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/bd71e192-b06b-4e4d-aca9-d576ef42461d">|
+|Total Members and Casuals|Casuals Prefer Electric Bikes|   |   |   |
+|:---:|:---:|:---:|:---:|:---:|
+|<img width="80" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/d8df94a5-ec0a-44b0-8ace-0d3484fe582c">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width="80" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/bd71e192-b06b-4e4d-aca9-d576ef42461d">|   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
 
 3. Casuals ride further distances.
 <table>
