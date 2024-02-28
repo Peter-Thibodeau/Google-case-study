@@ -4,7 +4,7 @@
 |:---:|:---:|:---:|
 |<img width="60%" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/b1d64c3a-2398-40b7-81bf-64f20701c162">|<img width="60%" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/a89fb803-3713-4e61-b44e-9a62c290eb7d">|<img width="60%" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/8eee41fd-fa0e-4934-8676-f0438a1510fd">|
 
-|Casuals prefer Sunday-Monday, members Monday-Wednesday|Casuals prefer electric bikes|
+|Casuals prefer Sunday-Monday, members prefer Monday-Wednesday|Casuals prefer electric bikes|
 |:---:|:---:|
 |<img width="100%" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/188e0925-e2c5-404f-8b6a-fdc227c92abf">|<img width="100%" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/37df74f5-eb95-43cc-b195-aa210ee1fa5c">|
 
@@ -14,10 +14,7 @@
 
 ## Recommendations
 1.	Casuals may respond well to discounts for electric bikes.  
-<br>
-2.	Casuals may respond well to discounts on Sunday and Monday only.
-<br>
-3.	
+2.	Casuals may respond well to discounts on Sunday and Monday only.  	
 
 # Notes
 All charts made with Tableau and can be found here: https://public.tableau.com/app/profile/peter.thibodeau/vizzes
