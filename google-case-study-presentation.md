@@ -1,43 +1,16 @@
 # The Differences Between Annual Members and Casual Users
 
-|Total members and casuals||Casuals keep the bike longer|   |   |
-|:---:|:---:|:---:|:---:|:---:|
-|<img width="80" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/d8df94a5-ec0a-44b0-8ace-0d3484fe582c">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width="80" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/bd71e192-b06b-4e4d-aca9-d576ef42461d">||<img width="80" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/a89fb803-3713-4e61-b44e-9a62c290eb7d">|   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+|Total population|Casuals keep the bike longer|Both ride about the same distance|
+|:---:|:---:|:---:|
+|<img width="160" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/b1d64c3a-2398-40b7-81bf-64f20701c162">|<img width="220" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/a89fb803-3713-4e61-b44e-9a62c290eb7d">|<img width="230" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/8eee41fd-fa0e-4934-8676-f0438a1510fd">|
+
 
 |Casuals prefer Sunday-Monday, members Monday-Wednesday|Casuals Prefer Electric Bikes|   |   |   |
 |:---:|:---:|---|---|---|
-|<img width="600" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/188e0925-e2c5-404f-8b6a-fdc227c92abf">|<img width="320" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/37df74f5-eb95-43cc-b195-aa210ee1fa5c">|   |   |   |
+|<img width="120" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/188e0925-e2c5-404f-8b6a-fdc227c92abf">|<img width="120" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/37df74f5-eb95-43cc-b195-aa210ee1fa5c">|<img width="120" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/a0ae4f14-278d-402c-b056-18ba38cc9278">|   |   |
 |   |   |   |   |   |
 |   |   |   |   |   |
 
-
-
-3. Casuals ride further distances.
-<table>
-<tr>
-<td>&nbsp;</td>
-<td>Max Ride Length (hours)</td>
-<td>Min Ride Length (minutes)</td>
-<td>Avg Ride Length (hours)</td>
-</tr>
-<tr>
-<td>members</td>
-<td>11.7</td>
-<td>6.0</td>
-<td>15.0</td>
-</tr>
-<tr>
-<td>casuals</td>
-<td>18.6</td>
-<td>6.0</td>
-<td>23.1</td>
-</tr>
-</tbody>
-</table>
-<br>
-<br><br>
 4. Casuals like electric bikes almost as much as conventional ones.
 <br>
 <img width="380" alt="image" src="https://github.com/Peter-Thibodeau/Google-case-study/assets/158618486/b271e3bf-8171-4b04-bcf0-825648430617">
