@@ -16,6 +16,6 @@
 1.	Casuals may respond well to discounts for electric bikes.  
 2.	Casuals may respond well to discounts on Sunday and Monday only.  	
 
-# Notes
+## Notes
 All charts made with Tableau and can be found here: https://public.tableau.com/app/profile/peter.thibodeau/vizzes
 
