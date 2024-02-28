@@ -1,8 +1,14 @@
 # The Differences Between Annual Members and Casual Users
 
-|Total Members and Casuals|Casuals Prefer Electric Bikes|   |   |   |
+|Total Members and Casuals||   |   |   |
 |:---:|:---:|:---:|:---:|:---:|
-|<img width="80" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/d8df94a5-ec0a-44b0-8ace-0d3484fe582c">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width="80" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/bd71e192-b06b-4e4d-aca9-d576ef42461d">|<img width="320" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/37df74f5-eb95-43cc-b195-aa210ee1fa5c">|   |   |   |
+|<img width="80" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/d8df94a5-ec0a-44b0-8ace-0d3484fe582c">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width="80" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/bd71e192-b06b-4e4d-aca9-d576ef42461d">||   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+
+|Casuals prefer Sunday-Monday, members Monday-Wednesday|Casuals Prefer Electric Bikes|   |   |   |
+|:---:|:---:|---|---|---|
+|<img width="600" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/188e0925-e2c5-404f-8b6a-fdc227c92abf">|<img width="320" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/37df74f5-eb95-43cc-b195-aa210ee1fa5c">|   |   |   |
 |   |   |   |   |   |
 |   |   |   |   |   |
 
