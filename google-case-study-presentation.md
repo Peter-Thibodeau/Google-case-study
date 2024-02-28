@@ -1,14 +1,8 @@
-# Findings
-![image](https://github.com/peter-thibodeau/google-case-study/assets/158618486/3136abf1-d969-4bf5-8622-55ca1f15ac0d)
+# The Differences Between Annual Members and Casual Users
 
-|Casual users rent for longer periods|
+|Total Members and Casuals|
 |:---:|
-|Max ride length (hours)&nbsp;&nbsp;&nbsp;&nbsp;Avg ride length (hours)|
-|<img width="160" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/586ed396-117a-41b7-81fd-3bb35be22018">&nbsp;&nbsp;&nbsp;<img width="160" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/9800ac7d-dd87-4cfd-916c-fb0e76e4a97f">|
-
-
-
-
+|<img width="80" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/d8df94a5-ec0a-44b0-8ace-0d3484fe582c">&nbsp;&nbsp;&nbsp;&nbsp;<img width="80" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/bd71e192-b06b-4e4d-aca9-d576ef42461d">|
 
 3. Casuals ride further distances.
 <table>
