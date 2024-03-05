@@ -1,5 +1,4 @@
 -- Create table
--- 1.
 CREATE TABLE rides (
     ride_id string,
     rideable_type string,
@@ -16,7 +15,7 @@ CREATE TABLE rides (
     member_casual string
 )
 
--- 2
+--
 SELECT * FROM `rides`
 UNION ALL
 SELECT * FROM `cyclistic.Jan 2022`
