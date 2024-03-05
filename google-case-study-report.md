@@ -13,19 +13,19 @@ The data contains transactions from Cyclistic is a bike-share company based in C
 ## Descriptions of Variables
 | Variable           | Nulls   | Datatype  | Description                               |
 | :---               | :---    | :---      | :---                                      |
-| ride_id            | 0       | string    | a unique string assigned to a single trip |
-| rideable_type      | 0       | string    | the type of bicycle chosen                |
+| ride_id            | 0       | varchar    | a unique string assigned to a single trip |
+| rideable_type      | 0       | varchar   | the type of bicycle chosen                |
 | started_at         | 0       | timestamp | time trip started                         |
 | ended_at           | 0       | timestamp | time trip ended                           |
-| start_station_name | 612,756 | string    | station where the trip started            |
-| start_station_id   | 612,768 | string    | unique identifier for start station       |
-| end_station_name   | 642,000 | string    | station where the trip started            |
-| end_station_id     | 642,012 | string    | unique identifier for end station         |
+| start_station_name | 612,756 | varchar   | station where the trip started            |
+| start_station_id   | 612,768 | varchar   | unique identifier for start station       |
+| end_station_name   | 642,000 | varchar   | station where the trip started            |
+| end_station_id     | 642,012 | varchar   | unique identifier for end station         |
 | start_lat          | 48      | decimal   | latitude of start station                 |
 | start_lng          | 60      | decimal   | longitude of start station                |
 | end_lat            | 1,800   | decimal   | latitude of end station                   |
 | end_lng            | 1,812   | decimal   | longitude of end station                  |
-| member_casual      | 96      | string    | annual member or casual user              |
+| member_casual      | 96      | varchar   | annual member or casual user              |
 
 ## Variable Handling
 | Variable           | Omit | Reason                                                 |
