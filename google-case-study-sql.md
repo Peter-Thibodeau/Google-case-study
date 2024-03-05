@@ -1,5 +1,5 @@
-# Create table
-# 1.
+-- Create table
+-- 1.
 CREATE TABLE rides (
     ride_id string,
     rideable_type string,
@@ -16,7 +16,7 @@ CREATE TABLE rides (
     member_casual string
 )
 
-# 2
+-- 2
 SELECT * FROM `rides`
 UNION ALL
 SELECT * FROM `cyclistic.Jan 2022`
@@ -43,7 +43,7 @@ SELECT * FROM `cyclistic.Nov 2022`
 UNION ALL
 SELECT * FROM `cyclistic.Dec 2021`
 
-# Delete rows with nulls
+-- Delete rows with nulls
 DELETE
   FROM `rides` 
   WHERE 
@@ -61,19 +61,19 @@ DELETE
     end_lng IS NULL OR        
     member_casual IS NULL
 
-# Check for unwanted punctuation
+-- Check for unwanted punctuation
 DELETE
  FROM `rides`
  WHERE start_station_name LIKE '%[,- !?;:/]%' OR end_station_name LIKE '%[,-!?;:/]%' 
     OR start_station_id LIKE '%[,!?;:/&]%' OR end_station_id LIKE '%[,!?;:/&]%'
     OR member_casual LIKE '%[,.-!?;:/&]%'    
 
-# Remove leading and trailing spaces
+-- Remove leading and trailing spaces
 SELECT TRIM(start_station_name) AS start_station_name
 FROM `rides`
-# repeat for all columns
+-- repeat for all columns
 
-# Change case
+-- Change case
 UPDATE `rides` 
 SET start_station_name = UPPER(start_station_name)
 WHERE start_station_name != UPPER(start_station_name)
@@ -86,28 +86,28 @@ UPDATE `rides`
 SET member_casual = UPPER(member_casual)
 WHERE member_casual != UPPER(member_casual)
 
-# Create ride length field
+-- Create ride length field
 SELECT
   TIMESTAMP_DIFF(ended_at, started_at, MINUTE) AS ride_length
   FROM `rides`
 
-# Create ride distance field
+-- Create ride distance field
 SELECT
     ACOS(COS(RADIANS(90-start_lat)) * COS(RADIANS(90-end_lat)) + SIN(RADIANS(90-start_lat)) *         SIN(RADIANS(90-end_lat)) * COS(RADIANS(start_lng-end_lng))) * 3959
     AS ride_dist_mi 
   FROM `rides`
 
-# Create day of week field
+-- Create day of week field
 SELECT
   DAYNAME(started_at) as day_of_week
   FROM `rides`
 
-# Create month field
+-- Create month field
 SELECT
   MONTH(started_at) as month
   FROM `rides`
 
-# Analyze bike type
+-- Analyze bike type
 SELECT
   rideable_type,
   member_casual,
@@ -115,7 +115,7 @@ SELECT
   FROM `rides`
   GROUP BY rideable_type, member_casual
 
-# Analyze ride length
+-- Analyze ride length
 SELECT 
   member_casual,
   COUNT(ride_length)
@@ -140,7 +140,7 @@ SELECT
   FROM `rides`
   GROUP BY member_casual
 
-# Analyze ride distance
+-- Analyze ride distance
 SELECT 
   member_casual,
   COUNT(ride_dist_mi)
@@ -165,7 +165,7 @@ SELECT
   FROM `rides`
   GROUP BY member_casual
 
-# Analyze day of week
+-- Analyze day of week
 SELECT
   member_casual,
   day_of_week,
@@ -173,7 +173,7 @@ SELECT
   FROM `rides`
   GROUP BY day_of_week, member_casual
  
-# Analyze month
+-- Analyze month
 SELECT
   member_casual,
   month,
