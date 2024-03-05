@@ -1,3 +1,5 @@
+-- because plotting will be done separately with tableau, deletions and updates were used to make permanent changes to the data
+
 -- Create table
 CREATE TABLE rides (
     ride_id string,
