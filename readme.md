@@ -1,1 +1,1 @@
-UFO is a practice data analysis I did to strengthen my skillset. The google-case-study-report.md file describes the source, description, and cleaning of the data. The google-case-study-presentation.md file contains plots, observations and my conclusion of the anaylsis.
+This is the capstone project I did to complete the Google Data Analytics Certification. The google-case-study-report.md file covers the source, description, and cleaning of the data. The google-case-study-presentation.md file contains plots, observations and my conclusion.
