@@ -9,12 +9,13 @@
 |<img width="100%" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/188e0925-e2c5-404f-8b6a-fdc227c92abf">|<img width="100%" alt="image" src="https://github.com/peter-thibodeau/google-case-study/assets/158618486/37df74f5-eb95-43cc-b195-aa210ee1fa5c">|
 
 ## Observations
-- Maybe casuals ride longer because electric bikes make it easier?
-- Maybe casuals like Sundays because they have the day off, but why Mondays?
+- Casuals ride longer, possibly because electric bikes are easier to ride long distances with less effort.
+- Casuals probably like Sundays because they have the day off. Meanwhile, the Mondays could be because their workplace is closed on that day, which is typical for restaurants, the Department of Motor Vehicles, etc...
 
 ## Recommendations
-1.	Casuals may respond well to discounts for electric bikes.  
-2.	Casuals may respond well to discounts on Sunday and Monday only.  	
+1.  Advertise/market to casuals on Friday and Saturday when they think about riding a bike on Sunday. Repeat on Monday to encourage use on other business days.
+2.	Offer casuals electric-bike discounts for Sunday and Monday. Offer larger discounts for Tuesday through Saturday. 
+3.	Offer casuals discounts on Sunday and Monday only.  	
 
 ## Notes
 All charts made with Tableau and can be found here: https://public.tableau.com/app/profile/peter.thibodeau/vizzes
